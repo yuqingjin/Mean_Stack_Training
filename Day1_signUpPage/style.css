@@ -1,0 +1,46 @@
+body {
+    font-family: 'Lato', sans-serif;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+.container{
+  padding: 10px 0 40px 0;
+}
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+form {
+  margin: 10px 40px 20px 40px;
+
+}
+
+.inputInformation input {
+    width: 100%;
+    height: 40px;
+}
+
+
+img {
+    padding: 0;
+    margin: 0 auto;
+    height: 30px;
+    width: 60px;
+}
+
+.row button {
+    width: 80px;
+    height: 40px;
+}
+
+
+/* responsive with screen size */
+@media screen and (max-width: 600px){
+    .row, .buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
